@@ -1,0 +1,13 @@
+
+
+.navbar{
+    background-color: var(--white);
+    width: 100%;
+}
+.navbar-item{
+    font-size: 1.2em;
+    color: var(--black);
+    font-weight: 500;
+    margin: 20px 0 0 30px;
+    padding: 0;
+}

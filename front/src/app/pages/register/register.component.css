@@ -1,0 +1,49 @@
+.input{
+    background-color: var(--white);
+}
+::-webkit-input-placeholder {
+    color: var(--black);
+ }
+ 
+ :-moz-placeholder {
+    color: var(--black);
+ }
+ 
+ ::-moz-placeholder {
+    color: var(--black);  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: var(--black);  
+ }
+
+ label{
+    color: var(--black);
+ }
+ .field{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .control{
+    width: 400px;
+    margin: 0px 0px 10px 15px;
+ }
+
+ .register-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    height: 90vh;
+ }
+ form{
+    margin-top: 10%
+ }
+ .btn-align{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+ }

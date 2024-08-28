@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+:root  {
+  /* CSS Variables */
+  --bulma-body-background-color: var(--white) 
+
+  /* CSS HEX */
+    --white: #FFFFFF;
+    --yinmn-blue: #4D5C7D;
+    --bittersweet: #E56353;
+    --chili-red: #CE412D;
+    --black: #3D3D3D;
+
+    /* CSS Variables */
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: var(--black);
+}
+
+.page{
+  height: 100vh;
+}
