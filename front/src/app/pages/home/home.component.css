@@ -1,0 +1,59 @@
+table{
+    width: 85%;
+    height: 80vh;
+}
+td{
+    width: 150px;
+   height: 125px;
+    border: 1px solid var(--yinmn-white);
+    padding: 5px;   
+}
+th{
+    color: var(--black);
+}
+.title{
+    color: var(--black);
+    margin: 0 0 15px 0;
+}
+.sub-calendar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0 0px 14%;
+}
+
+.task-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0px 5px;
+}
+
+.fa-circle{
+    font-size: 0.7em;
+    margin-left: 5px;
+    margin-right: 5px;
+} 
+a{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.task{
+    background-color: #d9ddfe;
+    border: 1px solid #7585ff;
+    border-radius: 5px;
+    padding: 2px 10px 2px 0px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+.sub-tasks{
+    display: flex;
+    color: var(--yinmn-blue);
+    font-size: 0.9em;
+}
+.sub-tasks p{
+    margin: 0 5px;
+}
+

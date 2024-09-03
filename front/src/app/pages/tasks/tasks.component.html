@@ -1,0 +1,16 @@
+
+<app-nav-bar></app-nav-bar>
+<div class="page">
+   <div class="task-day">
+        <a class="back" [routerLink]="['/home']" routerLinkActive="router-link-active" >
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <div class="data-content">
+            <h3 class="title is-4">1 de Agosto</h3>
+            <div *ngFor="let horario of horarios" class="hours">
+                    {{ horario }}<hr class="line-style">
+              </div> 
+        </div>
+   </div>
+</div>

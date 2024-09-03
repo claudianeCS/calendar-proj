@@ -1,8 +1,16 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">   
         <a class="navbar-item" href="">
-            <img src="/assets/calendar.png"/>
+            <img style="width: 80%; margin-right: 5px;" src="/assets/calendar.png"/>
             Calendar
+        </a>
+    </div>
+
+    <div class="user-content" *ngIf="rotaAtual !== '/' && rotaAtual !== '/register'">
+        <a href="">
+            <figure class="image is-32x32">
+                <img class="is-rounded" src="/assets/219969.png" />
+            </figure>
         </a>
     </div>
   </nav>
