@@ -5,18 +5,12 @@
     margin-top: 30px;
 }
 
-
 .fa-arrow-left{
     font-size: 1.7em;
     color: var(--bittersweet);
 }
 .fa-arrow-left:hover{
     color: var(--chili-red);
-}
-
-
-.back{
-
 }
 
 .data-content{
@@ -26,7 +20,6 @@
 .title{
     color: var(--black);
 }
-
 
 .hours{
     display: flex;
@@ -40,4 +33,18 @@
     background-color: var(--yinmn-white); 
     width: 90%;
     margin-left: 10px;
+}
+.new-task{
+   width: 100%;
+   display: flex;
+   justify-content: end;
+   position: fixed;
+   bottom: 50px;
+}
+button{
+    margin-right: 50px;
+}
+
+.fa-plus{
+    font-size: 3.5em;
 }

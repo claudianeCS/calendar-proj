@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavBarComponent } from "../../components/nav-bar/nav-bar.component";
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule , Router} from '@angular/router';
 
 @Component({
   selector: 'app-tasks',
@@ -15,7 +15,7 @@ export class TasksComponent {
 
   horarios: string[] = [];
 
-  constructor() {}
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     this.gerarHorarios();
@@ -31,5 +31,9 @@ export class TasksComponent {
           `);
       }
     }
+  }
+
+  createANewTask(){
+    this.router.navigate(['/tasks/new']);
   }
 }

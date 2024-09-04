@@ -1,0 +1,11 @@
+.color{
+    border: 1px solid #000;
+    background-color: aqua;
+    width: 15px;
+    height: 15px;
+}
+
+select{
+    background-color: aliceblue;
+    color: var(--black);
+}
