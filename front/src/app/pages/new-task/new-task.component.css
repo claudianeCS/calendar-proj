@@ -1,11 +1,59 @@
 .color{
-    border: 1px solid #000;
-    background-color: aqua;
-    width: 15px;
-    height: 15px;
+    border: 2px solid var(--yinmn-white);
+    background-color: var(--white);
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.label{
+    color: var(--black);
+}
+.date{
+    border-radius: 5px;
+    border: 2px solid var(--yinmn-white);
 }
 
 select{
     background-color: aliceblue;
     color: var(--black);
+}
+
+.input{
+    background-color: var(--white);
+}
+
+.input:focus{
+    border-color: var(--chili-red);
+    box-shadow: none;
+}
+::-webkit-input-placeholder {
+    color: var(--black);
+ }
+ 
+ :-moz-placeholder {
+    color: var(--black);
+ }
+ 
+ ::-moz-placeholder {
+    color: var(--black);  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: var(--black);  
+ }
+
+.select::after{
+    border-color: var(--chili-red) !important; 
+    box-shadow: none;
+ }
+
+select{
+    border-color: var(--black);
+    box-shadow: none;
+    background-color: var(--white);
+}
+select:focus{
+    border-color: var(--chili-red);
+    box-shadow: none;
 }

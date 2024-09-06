@@ -40,6 +40,10 @@ form{
 .input{
     background-color: var(--white);
 }
+.input:focus{
+   border-color: var(--chili-red);
+   box-shadow: none;
+}
 ::-webkit-input-placeholder {
     color: var(--black);
  }
