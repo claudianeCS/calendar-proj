@@ -34,17 +34,9 @@
     width: 90%;
     margin-left: 10px;
 }
-.new-task{
-   width: 100%;
-   display: flex;
-   justify-content: end;
-   position: fixed;
-   bottom: 50px;
-}
+
 button{
     margin-right: 50px;
 }
 
-.fa-plus{
-    font-size: 3.5em;
-}
+

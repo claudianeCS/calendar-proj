@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavBarComponent } from "../../components/nav-bar/nav-bar.component";
 import { CommonModule } from '@angular/common';
-import { Router, RouterModule } from '@angular/router';
+import { Route, Router, RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-new-task',
@@ -11,5 +11,13 @@ import { Router, RouterModule } from '@angular/router';
   styleUrl: './new-task.component.css'
 })
 export class NewTaskComponent {
+
+  constructor(private router : Router){}
+
+  newTaskDay(){
+
+    
+    this.router.navigate(['/tasks/new']);
+  }
 
 }

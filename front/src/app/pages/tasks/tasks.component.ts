@@ -33,7 +33,5 @@ export class TasksComponent {
     }
   }
 
-  createANewTask(){
-    this.router.navigate(['/tasks/new']);
-  }
+  
 }

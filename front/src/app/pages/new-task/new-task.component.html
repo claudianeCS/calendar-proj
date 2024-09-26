@@ -1,61 +1,57 @@
-<app-nav-bar></app-nav-bar>
-<div class="page">
-   
-   <div class="newtask-content">
-        <a class="back" [routerLink]="['/home']" routerLinkActive="router-link-active" >
-            <i class="fa-solid fa-arrow-left"></i>
-        </a>
-        <form action="" class="">
-            <div class="field">
-                <label class="label">Titulo</label>
-                <div class="control">
-                <input class="input" type="text" placeholder="Text input">
-                </div>
-                <p class="help">Titulo da tarefa</p>
-            </div>   
-            <div class="field">
-                <input class="color" type="color">
-                <p class="help">Cor da tarefa</p>
-            </div>
-            <div class="field">
-                <label for="" class="data-start">Começa:  </label>
-                <input class="date" type="datetime-local">
-            </div>
-            <div class="field">
-                <label for="" class="data-end">Termina:  </label>
-                <input class="date" type="datetime-local">
-            </div>
-            <div class="field">
-                <label class="checkbox">
-                    <input type="checkbox" />
-                    Dia todo
-                </label>
-            </div>
-            <div class="field">
-                <div class="select">
-                    <select>
-                    <option>---</option>  
-                    <option>Nunca</option>
-                    <option>Todas as semanas</option>
-                    </select>
-                </div>
-                <p class="help">Repeticao da tarefa</p>
-            </div>
 
-            <div class="field">
-                <label class="checkbox">
-                    <input type="checkbox" />
-                    Enviar alerta por email
-                </label>
-            </div>
+<form action="" class="">
+    <div class="field">
+        <label class="label">Titulo</label>
+        <div class="control">
+        <input class="input" type="text" placeholder="Text input">
+        </div>
+    </div>   
+    <div class="field">
+        <input class="color" type="color">
+        <p class="help">Cor da tarefa</p>
+    </div>
+    <div class="field">
+        <label for="" class="data-start">Começa:  </label>
+        <input class="date" type="datetime-local">
+    </div>
+    <div class="field">
+        <label for="" class="data-end">Termina:  </label>
+        <input class="date" type="datetime-local">
+    </div>
+    <div class="field">
+        <label class="checkbox">
+            <input type="checkbox" />
+            Dia todo
+        </label>
+    </div>
+    <div class="field">
+        <div class="select">
+            <select>
+            <option>---</option>  
+            <option>Nunca</option>
+            <option>Todas as semanas</option>
+            </select>
+        </div>
+        <p class="help">Repeticao da tarefa</p>
+    </div>
 
-            <div class="field">
-                <button  style="background-color: #3D3D3D; color: #fff; width: 150px;" class="button is-success">
-                    Salvar
-                </button>
-            </div>
+    <div class="field">
+        <label class="checkbox">
+            <input type="checkbox" />
+            Enviar alerta por email
+        </label>
+    </div>
+
+    <div class="field btn">
+        <button (click)="newTaskDay()"  style="background-color: #3D3D3D; color: #fff; width: 150px; font-size: 1em;" class="button is-success">
+            Salvar
+        </button>
+    </div>
+
+</form>
+
+
+
+
         
-        </form>
-   </div>
-   
-</div>
+          

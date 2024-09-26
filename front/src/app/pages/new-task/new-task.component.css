@@ -8,6 +8,10 @@
 
 .label{
     color: var(--black);
+   
+}
+label{
+    font-size: 0.9em;
 }
 .date{
     border-radius: 5px;
@@ -22,6 +26,7 @@ select{
 .input{
     background-color: var(--white);
     color: var(--black);
+    height: 35px;
 }
 
 .input:focus{
@@ -53,6 +58,7 @@ select{
     border-color: var(--black);
     box-shadow: none;
     background-color: var(--white);
+    height: 35px;
 }
 select:focus{
     border-color: var(--chili-red);
@@ -60,19 +66,16 @@ select:focus{
 }
 
 
-form{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    justify-content: center;
-    height: 90vh;
-}
 .newtask-content{
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
+}
+.data-content{
+    width: 90%;
     align-items: center;
-    height: 90vh;
+    display: flex;
+    justify-content: center;
 }
 
 .fa-arrow-left{
@@ -85,4 +88,10 @@ form{
 .back{
     align-items: start;
     height: 90vh;
+}
+.btn{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }

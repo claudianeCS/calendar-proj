@@ -10,5 +10,4 @@ export const routes: Routes = [
     {path: "register", component: RegisterComponent},
     {path: "home", component: HomeComponent},
     {path: "home/tasks", component: TasksComponent},
-    {path: "tasks/new", component: NewTaskComponent}
 ];
