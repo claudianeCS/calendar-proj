@@ -65,6 +65,12 @@ select:focus{
     box-shadow: none;
 }
 
+.sub-field{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
 
 .newtask-content{
     display: flex;

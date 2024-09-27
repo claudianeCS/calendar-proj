@@ -21,6 +21,10 @@ export class HomeComponent {
     this.isVisible = true;
   }
 
+  closeANewTask(){
+    this.isVisible = false;
+  }
+
 }
 
 

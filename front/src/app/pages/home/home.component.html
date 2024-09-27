@@ -92,7 +92,7 @@
         </button>
     </div>
     <div class="new-task-template" *ngIf="isVisible">
-        <app-new-task></app-new-task>
+        <app-new-task (closeTask) = "closeANewTask()"></app-new-task>
     </div>
 
 </div>
