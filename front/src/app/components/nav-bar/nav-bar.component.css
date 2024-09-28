@@ -4,8 +4,12 @@
     background-color: var(--white);
     width: 100%;
     display: flex;
+    margin-bottom: 45px;
+}
+.navbar-brand{
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .navbar-item{
@@ -21,4 +25,28 @@
 
 .user-content{
     margin: 20px 30px 0 0px;
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+
+}
+
+.change-view{
+
+    width: 100px;
+    height: 30px;
+    background-color: var(--yinmn);
+    border: 0.8px solid var(--yinmn-white);
+    font-size: 0.9em;
+}
+.change-view:hover{
+    background-color: var(--yinmn-white);
+    border: 0.8px solid var(--yinmn-blue);
+}
+
+.corner-left{
+    border-radius: 10px 0px 0px 10px;
+}
+.corner-right{
+    border-radius: 0px 10px 10px 0px;
 }

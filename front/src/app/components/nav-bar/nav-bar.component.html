@@ -4,13 +4,20 @@
             <img style="width: 80%; margin-right: 5px;" src="/assets/calendar.png"/>
             Calendar
         </a>
+        <div class="user-content" *ngIf="rotaAtual !== '/' && rotaAtual !== '/register'">
+            <div>
+                <div>
+                    <button class="change-view corner-left">Dias</button>
+                    <button class="change-view">Meses</button>
+                    <button class="change-view corner-right">Anos</button>
+                </div>
+            </div>
+            <a href="">
+                <figure class="image is-32x32">
+                    <img class="is-rounded" src="/assets/219969.png" />
+                </figure>
+            </a>
+        </div>
     </div>
-
-    <div class="user-content" *ngIf="rotaAtual !== '/' && rotaAtual !== '/register'">
-        <a href="">
-            <figure class="image is-32x32">
-                <img class="is-rounded" src="/assets/219969.png" />
-            </figure>
-        </a>
-    </div>
+    
   </nav>
