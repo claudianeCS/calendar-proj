@@ -1,6 +1,10 @@
 
 <app-nav-bar></app-nav-bar>
 <div class="page">
+   <div class="calendar">
+    <div class="arrow">
+        <i class="fa-solid fa-angle-left"></i>
+    </div>
     <div class="sub-calendar">
         <h3 class="title is-4">Mes do Ano </h3>
         <table>
@@ -86,6 +90,10 @@
             </tbody>
         </table>
     </div>  
+    <div class="arrow">
+        <i class="fa-solid fa-angle-right"></i>
+    </div>
+   </div>
     <div class="new-task">
         <button (click)="createANewTask()">
             <i class="fa-solid fa-plus"></i>
