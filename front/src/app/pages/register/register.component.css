@@ -1,6 +1,10 @@
 .input{
     background-color: var(--white);
 }
+.input::placeholder{
+   color: gray;
+   font-size: 1em;
+}
 .input:focus{
    border-color: var(--chili-red);
    box-shadow: none;
@@ -50,4 +54,10 @@
     justify-content: center;
     width: 100%;
     margin-top: 25px;
+ }
+
+ .hide{
+   position: relative;
+   bottom: 33px;
+   left: 370px;
  }

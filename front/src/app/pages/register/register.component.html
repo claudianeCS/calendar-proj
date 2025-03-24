@@ -19,9 +19,12 @@
               <div class="field">
                 <label class="label">Crie sua senha</label>
                 <div class="control">
-                  <input class="input" type="password" placeholder="">
+                  <input [type]="isActive ? 'text' : 'password'" id="meuInput" class="input">
+                  <button type="button" class="hide" (click)="toggleIcon()" ><i [ngClass]="isActive ? 'fa-solid fa-eye' : 'fa-solid fa-eye-slash'"></i></button>
                 </div>
               </div>
+              
+              
               <div class="field">
                 <label class="label">Confirme sua senha</label>
                 <div class="control">
@@ -34,6 +37,8 @@
                     Cadastra-se
                 </button>        
               </div>
+
+              
         </form>
         <app-footer></app-footer>
     </div>

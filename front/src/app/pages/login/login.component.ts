@@ -19,6 +19,8 @@ export class LoginComponent {
   }
 
   loginPage(){
+    // get a login info (email and password) if is valid return to home 
+    
     this.router.navigate(["home"])
   }
 }
