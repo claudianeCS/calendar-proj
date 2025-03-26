@@ -101,3 +101,6 @@ select:focus{
     display: flex;
     justify-content: center;
 }
+.lab{
+    margin-bottom: 5px;
+}

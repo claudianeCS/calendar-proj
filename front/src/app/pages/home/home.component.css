@@ -5,8 +5,7 @@ table{
 td{
     width: 150px;
    height: 125px;
-    border: 1px solid var(--yinmn-white);
-    padding: 5px;   
+   border: 1px solid var(--yinmn-white);
 }
 th{
     color: var(--black);
@@ -38,7 +37,6 @@ th{
 .task-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     height: 100px;
     margin: 0px 5px;
 }
@@ -49,7 +47,7 @@ th{
     margin-right: 5px;
 } 
 a{
-    margin-top: 10px;
+
     display: flex;
     flex-direction: column;
 }
@@ -88,11 +86,11 @@ a{
     width: 400px;
     background-color: rgba(214, 214, 214, 0.824);
     margin-left: 20px;
-    height: 70vh;
+    height: 50vh;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 7px 10px 20px -11px rgba(33, 33, 33, 0.75);
     position: absolute;
-    left: 850px;
+    left: 70%;
     top: 400px;
 }
